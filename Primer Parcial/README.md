@@ -5,3 +5,5 @@ Actividades Correspondientes al Segundo semestre de Ingeniería en Inteligencia 
 Recrear las siguientes funciones de Java, haciendo uso de apuntadores.
 ### Obtener la longitud de una cadena:
 [String.length()](./LongitudCadena.c)
+### Invertir una cadena
+[StringBuilder.reverse()](./InvertirCadena.c)
