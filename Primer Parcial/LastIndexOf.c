@@ -33,12 +33,12 @@ int indexOf(char Cadena [40], char Caracter)
     int SinEspacios = 0;
     
 
-    //Recorre el arreglo hasta obtener el último cáracter
+    //Recorre el arreglo hasta obtener el último cáracter y cuenta la cantidad de carácteres que tiene la string
     for(Ptr = Cadena; *Ptr != '\0'; Ptr = Ptr + 1, Long++)
     {
         
     }
-    //Recorre el arreglo en sentido contrario a partir del último cáracter
+    //Recorre el arreglo en sentido contrario a partir del último cáracter y resta al total de carácteres para obtener el valor más alto dónde coincida
     for(Ptr; Ptr >= Cadena; Ptr = Ptr - 1, Long --)
     {
         // Cuando sea el mismo caracter regresar el indice
