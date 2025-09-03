@@ -7,3 +7,7 @@ Recrear las siguientes funciones de Java, haciendo uso de apuntadores.
 [String.length()](./LongitudCadena.c)
 ### Invertir una cadena
 [StringBuilder.reverse()](./InvertirCadena.c)
+### Obtener el cáracter de un indice
+[charAt()](./CharAt.c)
+### Obtener el indice del primer caracter que coincida
+[IndexOf()](./IndexOf.c)
