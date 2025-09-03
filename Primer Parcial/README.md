@@ -11,3 +11,6 @@ Recrear las siguientes funciones de Java, haciendo uso de apuntadores.
 [charAt()](./CharAt.c)
 ### Obtener el indice del primer caracter que coincida
 [IndexOf()](./IndexOf.c)
+
+### Obtener el indice del ultimo caracter que coincida
+[LastIndexOf()](./LastIndexOf.c)
