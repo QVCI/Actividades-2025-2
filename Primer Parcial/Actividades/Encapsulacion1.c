@@ -6,8 +6,11 @@ struct Dato
 
 int main()
 {
+    //Se crea una instancia "Dato", para poder ingresar al mismo
     struct Dato dato;
 
+    //Se extraen las variables de dato.
+    // Se usa el indice (i), para avanzar dentro del arreglo
     for(dato.i = 0; dato.i<5; dato.i++)
     {
         printf("\nIngrese un dato: ");

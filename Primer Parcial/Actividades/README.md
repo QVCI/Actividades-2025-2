@@ -1,5 +1,5 @@
-# Actividades-2025-2
-Actividades en Clase
+# Actividades en Clase
+
 
 # Primer Parcial
 

@@ -6,10 +6,13 @@ struct Dato
 };
 int main()
 {
+    //Se crea una instancia "Dato" y un apuntador de tipo Estructura "Dato", para poder ingresar al mismo
     struct Dato dato, *PtrExterno;
 
+     //Al apuntador se le asigna la direccion de memoría correspondiente a la instancia de la clase dato
     PtrExterno = &dato;
 
+    //Con el apuntador externo, se accede a el apuntador Interno, que a su vez accede a el arreglo
     for(PtrExterno ->PtrInterno = dato.Arreglo;
         PtrExterno ->PtrInterno < &dato.Arreglo[5];
         PtrExterno ->PtrInterno = PtrExterno ->PtrInterno + 1

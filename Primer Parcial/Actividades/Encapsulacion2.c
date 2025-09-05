@@ -6,7 +6,12 @@ struct Dato
 
 int main()
 {
+
+    //Se crea una instancia "Dato", para poder ingresar al mismo
     struct Dato dato;
+
+    //Se extraen las variables de dato.
+    // Se usa el aputador, para avanzar dentro del arreglo
 
     for(dato.Ptr = dato.Arreglo; dato.Ptr < &dato.Arreglo[5]; dato.Ptr = dato.Ptr + 1)
     {
