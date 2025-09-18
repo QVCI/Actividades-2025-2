@@ -1,0 +1,37 @@
+#define TAM 50
+#include <stdio.h>
+
+struct datoEst
+{
+    int Arreglo [TAM], *Ptr;
+    float promedio, desvEstandar;
+    int num;    //datos Ingresados
+};
+int main()
+{
+    struct datoEst misdatos, *Ptrs;
+    Ptrs = &misdatos;
+    int opc = -1;
+
+    while (opc!= 3)
+    {
+        
+        printf("\n\nMenu");
+        printf("\n1.-Meter los datos.");
+        printf("\n2.-Imprimir los datos.");
+        printf("\n3.-Salir");
+        printf("\nIngrese una opcion: ");
+        scanf("%d", &opc);
+
+        if (opc == 1)
+        {
+            printf("%d", Arreglo[0])
+        }
+      
+        
+    }
+
+    
+    return 0;
+}
+
