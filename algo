@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+struct nodo 
+{
+    int dato;
+    struct nodo * ptrSig;
+};
+
+int main()
+{
+    struct nodo * ptRef1, ** ptRef2, *ptRec, * ptrBas, *ptrN;
+    ptRef1 = NULL;
+    ptRef2 = &ptRef1;
+    ptrN = (struct nodo *)malloc(10);
+    ptrN->dato = 5;
+    ptrN->ptrSig = NULL;
+    (*ptRef2) = ptrN;
+    ptrN = (struct nodo *)malloc(10);
+    ptrN -> dato = 10;
+    ptrN->ptrSig = NULL;
+    ptrN ->ptrSig = *ptRef2;
+    *ptRef2 = ptrN;
+    return 0;
+}
